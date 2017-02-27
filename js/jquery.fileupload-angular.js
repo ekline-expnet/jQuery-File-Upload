@@ -79,6 +79,9 @@
                     file.$cancel = function () {
                         return data.abort();
                     };
+                    file.$remove = function() {
+                      return data.abort();
+                    });
                 },
                 $config;
             $config = this.defaults = {
